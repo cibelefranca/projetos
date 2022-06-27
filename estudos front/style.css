@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    margin: auto;
+}
+    
+#titulo, .subtitle, .postagem{
+    color: rgb(93, 93, 150);
+}
+
+.titulo{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: lowercase;
+}
+a{
+    text-decoration: line-through;
+}
+
+.post{
+    background-color: azure;
+    padding: 10px;
+    border: 3px dashed #000;
+    border-top: 3px dotted blue;
+    border-left: 3px solid green;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.lista{
+    list-style-type: square;
+    padding-left: 15px;
+
+}
+
